@@ -1,7 +1,8 @@
-# openweather &emsp; [![Latest Version]][crates.io]
+# openweather
 
-[Latest Version]: https://img.shields.io/crates/v/openweather.svg
-[crates.io]: https://crates.io/crates/openweather
+**This is a fork of https://github.com/BroderickCarlin/openweather. I'm planning to refactor and maybe extend things a bit. Currently this is a private project to learn Rust.**
+
+---
 
 **Openweather is an *unofficial* thin wrapper around OpenWeatherMaps API for requesting current and historical weather data**
 
