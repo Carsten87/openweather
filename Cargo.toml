@@ -1,7 +1,7 @@
 [package]
 name = "openweather"
 version = "0.0.1"
-authors = ["Carsten Strunk <carsten.strunk@gmail.com>"]
+authors = ["Carsten Strunk <carstenstrunk@gmail.com>"]
 description = "A rust crate wrapping openweather's API into a simple easy to use interface"
 repository = "https://github.com/Carsten87/openweather"
 readme = "README.md"
