@@ -1,3 +1,8 @@
+extern crate serde;
+
+use serde::{Deserialize, Serialize};
+
+
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Coordinates {
     pub lat: f32,

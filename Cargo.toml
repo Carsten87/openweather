@@ -1,9 +1,9 @@
 [package]
 name = "openweather"
 version = "0.0.1"
-authors = ["Broderick Carlin <broderick.carlin@gmail.com>"]
+authors = ["Carsten Strunk <carsten.strunk@gmail.com>"]
 description = "A rust crate wrapping openweather's API into a simple easy to use interface"
-repository = "https://github.com/BroderickCarlin/openweather"
+repository = "https://github.com/Carsten87/openweather"
 readme = "README.md"
 keywords = ["openweather", "openweathermaps", "weather", "api"]
 categories = ["api-bindings", "science"]
@@ -15,9 +15,8 @@ name = "openweather"
 path = "src/lib.rs"
 
 [dependencies]
-reqwest = "0.8.6"
+reqwest = "0.9.11"
+url = "1.7.2"
 serde_json = "1.0"
-serde = "1.0.70"
-serde_derive = "1.0.70"
+serde = { version = "1.0", features = ["derive"] }
 time = "0.1.40"
-url = "1.5.1"
